@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>My Events</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+
+<style>
+	button {
+      width: 500px;
+      height: 300px;
+      padding: 30px;
+      border: none;
+      border-radius: 5px; 
+      background:  black;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background:  #669999;
+    }
+    #shifts{
+      	margin-right:auto;
+      	margin-left:auto;
+      }
+      #shifts td{
+      	width: 500px;
+      }
+      #shifts th {
+  		padding-top: 12px;
+		}
+		h1{
+			margin-right:auto;
+      		margin-left:auto;
+		}
+</style>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a class="w3-bar-item w3-button" href="about.html"> <img src="images.jpeg" alt="Logo" style="width:25%"/>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="iindex_632.html" class="w3-bar-item w3-button">About Us</a>
+      <a href="accountpage.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i>My Account</a>
+      <a href="index_632.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Log Out</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<center><h1>Welcome John!</h1></center>
+ <div class="btn-block">
+  
+        <table id="shifts">
+        
+        <tr><th>
+        	<form action="allevents.html">
+    			<button type="submit" href="orgregister.html">View<br><br><font size="+4">All Events</font></button>
+			</form>
+		</th>
+		<th>
+			<form action="myevents.html">
+    			<button type="submit" href="volregister.html">View<br><br><font size="+4">My Events</font></button>
+			</form>
+		</th></tr>
+		</table>
+        </div>
+
+
+
+</body>
+</html> 

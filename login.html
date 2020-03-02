@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>Log In</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<style>
+	button {
+      width: 70px;
+      height: 40px;
+      background:  black;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background:  #669999;
+      }
+</style>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a class="w3-bar-item w3-button" href="about.html"> <img src="images.jpeg" alt="Logo" style="width:25%"/>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="index_632.html#about" class="w3-bar-item w3-button">About Us</a>
+      <a href="allevents.html" class="w3-bar-item w3-button">All Events</a>
+      <a href="register.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Register</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="w3-container w3-half " style="width: 1300px; margin-left:auto;margin-right:auto;">
+<form class="w3-container w3-card-4" style="width: 700px;  margin-right:auto; margin-left:auto;" action="accountpage.html">
+<div class="w3-center"><br>
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-transparent w3-display-topright" title="Close Modal">×</span>
+        <img src="avatar3.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form class="w3-container"  action="accountpage.html">
+        <div class="w3-section">
+          <label><b>Username</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+          <label><b>Password</b></label>
+          <input class="w3-input w3-border" type="text" placeholder="Enter Password" name="psw" required>
+			<br>
+          <button type="submit" href="accountpage.html">Login</button>
+          
+          <br>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+          <br>
+          <br>
+        <span class="w3-right w3-padding w3-hide-small"><a href="#">Forgot password?</a></span>
+        </div>
+      </form>
+    </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.events-modal{
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+	
+}
+
+#fixedbutton {
+    width: 100px;
+    float:right; display:inline; 
+}
+
+#shifts td:hover {
+	background-color: #ddd;
+}
+
+#shifts td {
+	width: 300px;
+	text-align: center;
+
+}
+
+#shifts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+#buttons-table{
+	float:right;
+}
+
+#event-image{
+	width:200px; 
+	height:150px; 
+	float:right; 
+	padding-top:20px;
+}
